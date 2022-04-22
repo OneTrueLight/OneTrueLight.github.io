@@ -12,7 +12,7 @@
   <body>
     <h1>Welcome...</h1>
 
-    <p><strong><em>The Angels are lost in the perpetual contemplation of an Infinite Glory<br></strong></em></p>
+    <p><strong><em>The Angels are lost in the perpetual contemplation of an Infinite Glory<br></strong></em>
 
    <img src="https://wallpapercave.com/wp/wp8207510.jpg" alt="Surya Yantra" width="199" height="199">
    
@@ -23,6 +23,6 @@
       <li>Nature</li>
     </ul>
 
-    <p>check out my Insta. <a href="https://www.instagram.com/avkvsh/">:))</a>!</p>
+   check out my Insta. <a href="https://www.instagram.com/avkvsh/">...</a>!</p>
   </body>
 </html>
