@@ -1,15 +1,128 @@
 <!DOCTYPE html>
 <html>
-<head>
+<html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 <style>
+
+
+
+
+
+
+
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+}
+body {
+  font-family: sans-serif;
+}
+pre {
+  font-family: sans-serif;
+}
+body ,pre{
+  line-height: 1.5;
+  padding: 1em 1em;
+}
+h2,h3, {
+  margin-top: 1em;
+  padding-top: 1em;
+  background: #ffffff;
+  color: #BDB76B;
+}
+body ,pre{
+  color: #0e0f06;
+}
+h1,
+h2,h3,
+strong {
+  color: #B8860B;
+}
+code {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+
+a,p {
+  color: #B8860B;
+}
+body {
+  color: #0e0f06;
+}
+
+code,
+{
+  background: #F8F8FF;
+  border-left: 5px solid #BDB76B;
+  color: #000080;
+}
+
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  font-family: sans-serif;
+}
+header {
+  background-color: #FFFAF0;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 1vw 2em;
+  text-align: center;
+}
+header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+header h1 {
+  color: #B8860B;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+header a {
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+
+
+aside{background: #FFFAF0;
+color: #0e0f06;
+}
+
+
+
+
+
+
+
+
+
 div.gallery {
-  margin: 5px;
   border: 1px solid #ccc;
-  float: left;
-  width: 180px;
 }
 
 div.gallery:hover {
@@ -25,82 +138,154 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
-<title>Photography</title>
+<title>चित्र चित्रण</title>
 </head>
 <body>
 
 <header>
         <h1 style="text-align:center;">चित्र चित्रण</h1>
         <aside>"A photograph is a secret about a secret. The more it tells you the less you know."<br>- Diane Arbus</aside>
-        <hr>
-    </header>
+        
+    </header><hr>
 
-    <!--
-    <div class="gallery">
-  <a target="_blank" href="4.jpg">
-    <img src="image4.jpg" alt="Mountains" width="600" height="400">
-  </a>
-    
-<div class="gallery">
-  <a target="_blank" href="1.jpg">
-    <img src="1.jpg" alt="Dhammapada" width="600" height="400">
-  </a>
-
-<div class="gallery">
-  <a target="_blank" href="2.jpg">
-    <img src="2.jpg" alt="" width="600" height="400">
-  </a>
-
-<div class="gallery">
-  <a target="_blank" href="3.jpg">
-    <img src="3.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-
-<div class="gallery">
-  <a target="_blank" href="4.jpg">
-    <img src="4.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  
-    <div class="gallery">
-  <a target="_blank" href="5.jpg">
-    <img src="5.jpg" alt="Mountains" width="600" height="400">
-  </a>
-    
-    <div class="gallery">
-  <a target="_blank" href="6.jpg">
-    <img src="6.jpg" alt="Mountains" width="600" height="400">
-  </a>
-    
-    <div class="gallery">
-  <a target="_blank" href="7.jpg">
-    <img src="7.jpg" alt="Mountains" width="600" height="400">
-  </a>
-    
-    <div class="gallery">
-  <a target="_blank" href="8.jpg">
-    <img src="8.jpg" alt="Mountains" width="600" height="400">
-  </a>
-    
-    <div class="gallery">
-  <a target="_blank" href="9.jpg">
-    <img src="9.jpg" alt="Mountains" width="600" height="400">
-  </a>
-    
-    <div class="gallery">
-  <a target="_blank" href="10.jpg">
-    <img src="10.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  
-    
-    
-    <div class="gallery">
-  <a target="_blank" href="11.jpg">
-    <img src="11.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="1.jpg">
+      <img src="1.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
 </div>
-   
 
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="2.jpg">
+      <img src="2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="3.jpg">
+      <img src="3.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="4.jpg">
+      <img src="4.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="5.jpg">
+      <img src="5.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="6.jpg">
+      <img src="6.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="7.jpg">
+      <img src="7.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="8.jpg">
+      <img src="8.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="9.jpg">
+      <img src="9.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="10.jpg">
+      <img src="10.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="11.jpg">
+      <img src="11.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+<div style="padding:6px;">
+  <address>Everything is a grace from the Higher and Divine.<br> I simply don't know anything. I am a tiny droplet of this vast ocean which is the world.</address>
+</div>
 </body>
 </html>
+<p id="footer-note">
+	© Copyright 2022
+	<a href="https://onetruelight.github.io/">Akash Mishra</a>.
+	All rights reserved.</p>
